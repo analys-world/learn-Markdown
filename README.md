@@ -62,11 +62,85 @@ and this is the second markdown.<br>
 
 常见的强调格式有粗体与斜体两种形式：
 
+**粗体**
+
+要加粗文本，可以在单词或者短语的前后各添加两个星号，或者下划线。如需加粗一个单词或者短语的中间部分表示强调的话，请在需要加粗的部分两侧各自添加两个星号。
+
+代码：
+
+    I just love **bold text**.
+    I just love __bold text__.
+
+格式：
+
+I just love **bold text**.
+I just love __bold text__.
+
+*斜体*
+
+要用斜体显示文本时，请在单词或者短语前后各自添加一个星号或者下划线。要斜体突出单词的中间部分，请在字母前后各添加一个星号，中间不要带空格。
+
+代码：
+
+    Italicized text is the *cat is meow*.
+    A*cat*meoew.
+
+格式：
+
+Italicized text is the *cat is meow*.
+A*cat*meoew.
+
+粗体和斜体
+
+要同时使用斜体突出显示文本，请在单词或者短语的前后各自添加三个星号或者下划线。要加粗并用斜体显示单词或者短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。
+
+代码：
+
+    This text is ***really important***.
+    This text is *__really important__*.
+
+格式：
+
+This text is ***really important***.
+This text is *__really important__*.
 
 
-引用语法：
+### 引用语法：
 
-列表语法：
+要创建一个引用时，请在需要引用的段落前添加一个>符号。
+
+代码：
+
+    >Dorothy followed her through many of beautiful rooms in her castle.
+
+格式：
+
+>Dorothy followed her through many of beautiful rooms in her castle.
+
+嵌套块引用：
+
+块引用可以嵌套。在要嵌套的段落前的添加一个>>符号。
+
+代码：
+
+    >Dorithy followed her through many of the beautiful rooms in her castle.
+    >
+    >>The witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+
+格式：
+
+>Dorithy followed her through many of the beautiful rooms in her castle.
+>
+>>The witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood. 
+
+
+### 列表语法：
+
+在Markdown中，可以将多个条目组织成有序或者无序的列表。
+
+
+
 
 代码语法：
 
