@@ -19,10 +19,10 @@ Markdown常见的基本语法主要分为以下几个方面：标题、段落、
 
 格式：
 
-># heading level1
->## heading level2
->### heading level3
->#### heading level4
+    ># heading level1
+    >## heading level2
+    >### heading level3
+    >#### heading level4
 
 
 ### 段落语法：
@@ -139,6 +139,52 @@ This text is *__really important__*.
 
 在Markdown中，可以将多个条目组织成有序或者无序的列表。
 
+有序列表：
+
+要创建有序列表，请在每个列表项前添加数字并紧跟一个英文句点。数字不必按数学顺序排列，但是列表应当以数字1起始。
+
+代码：
+
+    1. first item
+    2. second item
+    3. third item
+    4. fourth item
+
+格式：
+
+1. first item
+2. second item
+3. third item
+4. fourth item
+
+无序列表：
+
+要创建无序列表，请在每个列表项之前添加- * 或者 + 。缩进一个或多个列表项可创建嵌套列表。
+
+代码：
+
+    - first item
+    - second item
+    - third item
+    - fourth item
+
+    * first item
+    * second item
+    * third item
+    * fourth item
+
+格式：
+
+- first item
+- second item
+- third item
+- fourth item
+
+* first item
+* second item
+* third item
+* fourth item
+
 ### 代码语法：
 
 要将单词或短语表示为代码，请将其包裹在反引号`` ` `` 中。
@@ -151,17 +197,49 @@ This text is *__really important__*.
 
 要创建代码块，请将代码块的每一行至少缩进四个空格或者一个制表符。
 
-
-
-
-
 ### 分割线语法：
 
-链接语法：
+要创建分割线，请在单独一行上使用三个或多个 * 号，（或-, _）
 
-图片语法：
+### 链接语法：
 
-转义字符语法：
+链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。
 
-内嵌HTML标签：
+超链接markdown语法代码：
+
+[链接](https://vscode.dev/github/analys-world/learn-Markdown/blob/main/README.md#L204)
+
+给链接增加显示：
+
+链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址的后面，跟链接地址之间以空格分隔。
+
+[链接](https://vscode.dev/github/analys-world/learn-Markdown/blob/main/README.md#L204 "链接 ")
+
+网址和email地址：
+
+使用尖括号可以很方便的把url或者email变成可点击的链接。
+
+<baidu.com>
+
+带格式化的链接：
+
+强调链接：在链接语法前后增加星号。要将链接表示为代码，请在方括号中添加反引号。
+
+引用类型的链接：
+
+
+
+### 图片语法：
+
+要添加图像，请使用感叹号（！），然后在方括号内增加替代文本，图片链接放在圆括号内，括号里的链接后可以增加一个可选的图片标题文本。
+
+
+
+### 转义字符语法：
+
+### 内嵌HTML标签：
+
+
+
+## 扩展语法：
 
